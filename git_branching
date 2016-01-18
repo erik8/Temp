@@ -1,0 +1,25 @@
+Create branch locally
+git branch branch1
+Delete branch locally
+git checkout branch1
+git commmit -m "commit"
+git checkout master
+Delete branch
+git branch -d branch1
+git push origin master
+
+Create branch remotadly and track it
+git branch -b branch1
+git push origin branch1
+
+Delete branch from remote
+git push origin --delete branch1
+
+
+List all branches on remote
+git branch -a
+OR 
+git branch -r
+
+Update the list of branches
+git remote update origin --prune
